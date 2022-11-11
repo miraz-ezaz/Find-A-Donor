@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/drawable/ic_details.xml" value="0.18518518518518517" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/drawable/ic_save_user.xml" value="0.17592592592592593" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/drawable/ic_saved_user.xml" value="0.17592592592592593" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/drawable/ic_title.xml" value="0.19074074074074074" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/drawable/ic_update_status.xml" value="0.2037037037037037" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/drawable/state_off.xml" value="0.1" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/drawable/state_on.xml" value="0.1" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/drawable/thump.xml" value="0.1" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/drawable/track.xml" value="0.1" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/layout/activity_category_selected.xml" value="0.12360688956433637" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/layout/activity_donor_registration.xml" value="0.12360688956433637" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/layout/activity_edit_profile.xml" value="0.17798913043478262" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/layout/activity_email_verification.xml" value="0.22871376811594202" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/layout/activity_notification.xml" value="0.22871376811594202" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/layout/activity_other_donor_search.xml" value="0.264" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/layout/activity_other_recipient_search.xml" value="0.2006340579710145" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/layout/activity_profile.xml" value="0.1" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/layout/activity_received_request.xml" value="0.11614583333333334" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/layout/activity_recipient_registration.xml" value="0.1" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/layout/activity_report.xml" value="0.1897644927536232" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/layout/activity_satrred_user.xml" value="0.17300724637681159" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/layout/activity_saved_user.xml" value="0.1" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/layout/activity_search_phone.xml" value="0.2006340579710145" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/layout/activity_select_registration.xml" value="0.10416666666666667" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/layout/activity_send_request.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/layout/activity_sent_request.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/layout/activity_share_location.xml" value="0.24010416666666667" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/layout/activity_splash_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/layout/activity_update_status.xml" value="0.264" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/layout/activity_view_profile.xml" value="0.37037037037037035" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/layout/activity_view_recipient.xml" value="0.2210144927536232" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/layout/activity_view_request.xml" value="0.264" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/layout/header.xml" value="0.16666666666666666" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/layout/requesr_display_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/layout/user_displayed_layout.xml" value="0.1" />
+        <entry key="..\:/Projects/Android/Cse 250/Extra extra/app/src/main/res/menu/main_menu.xml" value="0.13020833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

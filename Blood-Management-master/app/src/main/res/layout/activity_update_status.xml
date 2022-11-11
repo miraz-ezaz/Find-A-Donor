@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/bgRed"
+    tools:context=".UpdateStatusActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="@color/frWhite"
+        android:elevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:paddingBottom="15dp"
+            android:background="@color/frWhite"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/logo_status"/>
+            <TextView
+                android:text="Your Donation Status"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="If you have Donate Today,\n Click the Donated Today Button\n to update Your Status"
+                android:textColor="@color/black"
+                android:padding="5dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+                <Button
+                    android:id="@+id/donatedToday"
+                    android:text="Donated Today"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:background="@drawable/button_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:layout_marginBottom="2dp">
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/donateSwitch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    app:track="@drawable/track"
+                    android:thumb="@drawable/thump"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textOn="available"
+                    android:textOff="notavailable"
+                    android:text="Available To Donate"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp">
+                    <TextView
+                        android:id="@+id/totalDonted"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:text="Total Donated:"
+                        android:gravity="start"
+                        android:textAlignment="textStart"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="end"
+                        android:paddingStart="25dp">
+                        <TextView
+                            android:id="@+id/plusDonate"
+                            android:textColor="#000"
+                            android:textSize="25sp"
+                            android:text="+"
+                            android:gravity="end"
+                            android:textStyle="bold"
+                            android:layout_gravity="end"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp"
+                            android:textAlignment="textEnd"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:id="@+id/minusDonate"
+                            android:textColor="#000"
+                            android:textSize="25sp"
+                            android:text="-"
+                            android:gravity="end"
+                            android:textStyle="bold"
+                            android:layout_gravity="end"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp"
+                            android:textAlignment="textEnd"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:id="@+id/lastDonated"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:text="Last Donated:"
+                        android:gravity="start"
+                        android:textAlignment="textStart"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/theDate"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:text="Update Date"
+                        android:gravity="right"
+                        android:textStyle="bold"
+                        android:paddingStart="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/backButton"
+                    android:text="Go to Home"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>

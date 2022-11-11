@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/frWhite"
+    android:orientation="vertical"
+    tools:context=".ViewRequestActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/frWhite">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bgRed"/>
+
+        <TextView
+            android:id="@+id/senderName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Sender"
+            android:textAlignment="textStart"
+            android:textSize="20sp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/recieverName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Reciever"
+            android:textAlignment="textStart"
+            android:textSize="20sp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/timeStamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Time"
+            android:textAlignment="textStart"
+            android:textSize="20sp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/tittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Tittle"
+            android:textStyle="bold"
+            android:textAlignment="textStart"
+            android:textSize="20sp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Description"
+            android:textAlignment="textStart"
+            android:textSize="20sp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/rqstStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Tittle"
+            android:textStyle="bold"
+            android:textAlignment="textStart"
+            android:textSize="20sp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/reply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Reply"
+            android:textStyle="bold"
+            android:textAlignment="textStart"
+            android:textSize="20sp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/replytime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Replied at"
+            android:textAlignment="textStart"
+            android:textSize="20sp"
+            android:textColor="#000"/>
+
+
+        <LinearLayout
+            android:id="@+id/replyLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="@color/frWhite">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/TextInputLayoutStyle"
+                app:boxStrokeColor="#000"
+                app:hintTextAppearance="@color/bgRed"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/replyDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Reply"
+                    android:inputType="textMultiLine"
+                    android:lines="5"
+                    android:gravity="top|start"
+                    android:padding="10dp"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textColorHint="#000" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <Button
+                android:id="@+id/SendReplyButton"
+                android:text="Reply"
+                android:textAllCaps="false"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="start"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:background="@drawable/button_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:layout_margin="2dp">
+
+            <Button
+                android:id="@+id/viewProfile"
+                android:text="Profile"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="2dp"
+                android:textAllCaps="false"
+                android:drawableEnd="@drawable/ic_rqst"
+                android:background="@drawable/button_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/deleteRequest"
+                android:text="Delete"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="2dp"
+                android:textAllCaps="false"
+                android:drawableEnd="@drawable/ic_delete"
+                android:background="@drawable/button_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/backButton"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="2dp"
+                android:textAllCaps="false"
+                android:drawableLeft="@drawable/ic_homepage"
+                android:background="@drawable/button_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>>
+
+</ScrollView>
